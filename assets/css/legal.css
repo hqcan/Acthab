@@ -1,0 +1,329 @@
+/* 法律页面专用样式 */
+.legal-page {
+    padding-top: 100px;
+    min-height: 100vh;
+    background: var(--background-light);
+}
+
+.legal-header {
+    text-align: center;
+    padding: 3rem 0;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    color: white;
+    margin-bottom: 3rem;
+    border-radius: var(--border-radius-large);
+}
+
+.legal-header h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.last-updated {
+    font-size: 1rem;
+    opacity: 0.8;
+    margin-bottom: 2rem;
+}
+
+.legal-summary {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: var(--border-radius);
+    backdrop-filter: blur(10px);
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.legal-summary h3 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.legal-summary p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.legal-content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 2rem 4rem;
+}
+
+.legal-section {
+    margin-bottom: 3rem;
+    background: var(--background-light);
+    padding: 2.5rem;
+    border-radius: var(--border-radius-large);
+    box-shadow: var(--shadow-light);
+    border: 1px solid var(--border-color);
+}
+
+.legal-section h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.legal-section h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 2rem 0 1rem;
+}
+
+.legal-section h4 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-primary);
+    margin: 1.5rem 0 0.75rem;
+}
+
+.legal-section p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--text-secondary);
+    margin-bottom: 1rem;
+}
+
+.legal-section ul {
+    margin: 1rem 0 1.5rem 1.5rem;
+}
+
+.legal-section li {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+}
+
+.legal-section li strong {
+    color: var(--text-primary);
+    font-weight: 600;
+}
+
+.highlight-box {
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+    border: 2px solid var(--primary-color);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.highlight-box h4 {
+    color: var(--primary-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.highlight-box p {
+    color: var(--text-primary);
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.contact-info {
+    background: var(--background-gray);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    margin: 1rem 0;
+}
+
+.contact-info ul {
+    margin: 0;
+    list-style: none;
+}
+
+.contact-info li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.contact-info li:last-child {
+    border-bottom: none;
+}
+
+.contact-info strong {
+    color: var(--primary-color);
+}
+
+/* 导航栏活跃状态 */
+.nav-links a.active {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.nav-links a.active::after {
+    width: 100%;
+}
+
+/* 价格表格样式 */
+.pricing-table {
+    margin: 2rem 0;
+    overflow-x: auto;
+}
+
+.pricing-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background: var(--background-light);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-light);
+}
+
+.pricing-table th,
+.pricing-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.pricing-table th {
+    background: var(--primary-color);
+    color: white;
+    font-weight: 600;
+}
+
+.pricing-table tr:hover {
+    background: var(--background-gray);
+}
+
+.pricing-table td:first-child {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* 重要提醒框 */
+.important-notice {
+    background: linear-gradient(135deg, rgba(244, 67, 54, 0.1) 0%, rgba(255, 152, 0, 0.1) 100%);
+    border: 2px solid #ff9800;
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    margin: 2rem 0;
+}
+
+.important-notice p {
+    color: var(--text-primary);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.important-notice ul {
+    margin: 0.5rem 0 0 1rem;
+}
+
+.important-notice li {
+    color: var(--text-primary);
+}
+
+/* 步骤列表 */
+.steps-list {
+    counter-reset: step-counter;
+    list-style: none;
+    margin: 1.5rem 0;
+    padding: 0;
+}
+
+.steps-list li {
+    counter-increment: step-counter;
+    position: relative;
+    padding: 1rem 0 1rem 3rem;
+    border-left: 2px solid var(--border-color);
+    margin-bottom: 1rem;
+}
+
+.steps-list li::before {
+    content: counter(step-counter);
+    position: absolute;
+    left: -1rem;
+    top: 1rem;
+    background: var(--primary-color);
+    color: white;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.steps-list li:last-child {
+    border-left: none;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .legal-header {
+        padding: 2rem 1rem;
+        margin: 0 1rem 2rem;
+    }
+    
+    .legal-header h1 {
+        font-size: 2rem;
+    }
+    
+    .legal-content {
+        padding: 0 1rem 3rem;
+    }
+    
+    .legal-section {
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+    }
+    
+    .legal-section h2 {
+        font-size: 1.5rem;
+    }
+    
+    .legal-section h3 {
+        font-size: 1.2rem;
+    }
+    
+    .legal-summary {
+        padding: 1.5rem;
+        text-align: center;
+    }
+    
+    .pricing-table {
+        font-size: 0.9rem;
+    }
+    
+    .pricing-table th,
+    .pricing-table td {
+        padding: 0.75rem 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .legal-header h1 {
+        font-size: 1.8rem;
+    }
+    
+    .legal-section {
+        padding: 1rem;
+    }
+    
+    .legal-section h2 {
+        font-size: 1.3rem;
+    }
+    
+    .legal-section h3 {
+        font-size: 1.1rem;
+    }
+    
+    .highlight-box,
+    .important-notice {
+        padding: 1rem;
+    }
+}

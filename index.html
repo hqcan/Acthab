@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>习行 ActHab - 隐私优先的智能习惯管理应用</title>
+    <meta name="description" content="习行是一款注重隐私保护的习惯管理应用，采用本地AI智能分析，100%离线运行，帮助您建立和维持良好习惯。">
+    <meta name="keywords" content="习惯管理,习惯追踪,私密应用,本地AI,离线应用,iOS应用,习惯养成,自我提升">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="习行 Logo" onerror="this.style.display='none'">
+                <span>习行 ActHab</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">首页</a></li>
+                <li><a href="#features">功能特色</a></li>
+                <li><a href="#pricing">订阅方案</a></li>
+                <li><a href="privacy.html">隐私政策</a></li>
+                <li><a href="terms.html">服务条款</a></li>
+                <li><a href="subscription.html">订阅协议</a></li>
+                <li><a href="support.html">技术支持</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="language-switch" onclick="switchLanguage()">English</button>
+                <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- 英雄区域 -->
+        <section id="home" class="hero">
+            <div class="hero-background"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">习行 ActHab</h1>
+                    <p class="hero-subtitle">隐私优先的智能习惯管理</p>
+                    <p class="hero-description">
+                        采用100%本地AI技术，无需联网即可获得智能分析建议。您的隐私数据永远不会离开设备，
+                        同时享受强大的习惯追踪和个性化洞察功能。
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#" class="btn btn-primary" target="_blank">
+                            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on App Store">
+                        </a>
+                        <a href="#features" class="btn btn-secondary">了解更多</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="app-preview">
+                                <div class="preview-header">
+                                    <div class="preview-time">9:41</div>
+                                    <div class="preview-battery">100%</div>
+                                </div>
+                                <div class="preview-content">
+                                    <h3>今日习惯</h3>
+                                    <div class="habit-item completed">
+                                        <span class="habit-icon">💧</span>
+                                        <span class="habit-name">喝水</span>
+                                        <span class="habit-status">✓</span>
+                                    </div>
+                                    <div class="habit-item">
+                                        <span class="habit-icon">📚</span>
+                                        <span class="habit-name">阅读</span>
+                                        <span class="habit-status">○</span>
+                                    </div>
+                                    <div class="habit-item">
+                                        <span class="habit-icon">🏃</span>
+                                        <span class="habit-name">运动</span>
+                                        <span class="habit-status">○</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 功能特色 -->
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">核心功能特色</h2>
+                    <p class="section-subtitle">为什么选择习行？我们专注于隐私保护和智能体验</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>100% 隐私保护</h3>
+                        <p>所有数据仅存储在您的设备本地，采用AES-256军用级加密。我们无法看到您的任何个人信息，真正做到零数据收集。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🧠</div>
+                        <h3>本地AI智能分析</h3>
+                        <p>先进的设备端机器学习技术，无需联网即可提供个性化习惯分析和改进建议，保护隐私的同时享受智能体验。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✈️</div>
+                        <h3>完全离线运行</h3>
+                        <p>飞行模式也能正常使用，无需担心网络连接。所有功能都在本地运行，确保在任何环境下都能管理您的习惯。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>智能数据分析</h3>
+                        <p>提供详细的习惯完成率分析、趋势预测和模式识别，帮助您了解自己的习惯规律，制定更有效的改进策略。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🏆</div>
+                        <h3>成就激励系统</h3>
+                        <p>丰富的成就徽章和等级系统，让习惯养成更有趣味性。通过游戏化元素保持长期动力和参与度。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3>小组件支持</h3>
+                        <p>iOS主屏幕小组件支持，一眼查看今日习惯进度。支持多种尺寸和样式，与系统完美集成。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 订阅方案 -->
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">选择适合您的方案</h2>
+                    <p class="section-subtitle">灵活的订阅选项，满足不同用户需求</p>
+                </div>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>免费版</h3>
+                            <div class="price">
+                                <span class="currency">¥</span>
+                                <span class="amount">0</span>
+                                <span class="period">永久免费</span>
+                            </div>
+                        </div>
+                        <ul class="features-list">
+                            <li class="included">最多6个习惯</li>
+                            <li class="included">基础习惯追踪</li>
+                            <li class="included">无限数据历史</li>
+                            <li class="included">基础统计图表</li>
+                            <li class="included">小组件支持</li>
+                            <li class="excluded">AI智能分析</li>
+                            <li class="excluded">数据导出</li>
+                            <li class="excluded">云端同步</li>
+                            <li class="excluded">高级图表</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">立即下载</a>
+                    </div>
+                    <div class="pricing-card featured">
+                        <div class="popular-badge">推荐</div>
+                        <div class="pricing-header">
+                            <h3>高级版</h3>
+                            <div class="price">
+                                <span class="currency">¥</span>
+                                <span class="amount">128</span>
+                                <span class="period">每年</span>
+                            </div>
+                            <div class="price-note">节省33% • 美国区 $19.9/年</div>
+                        </div>
+                        <ul class="features-list">
+                            <li class="included">无限习惯数量</li>
+                            <li class="included">完整习惯追踪</li>
+                            <li class="included">无限数据历史</li>
+                            <li class="included">AI智能分析与建议</li>
+                            <li class="included">高级统计图表</li>
+                            <li class="included">数据导出功能</li>
+                            <li class="included">iCloud云端同步</li>
+                            <li class="included">自定义主题</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">开始订阅</a>
+                        <p class="cancel-note">随时可取消</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo.png" alt="习行 Logo" onerror="this.style.display='none'">
+                        <span>习行 ActHab</span>
+                    </div>
+                    <p class="footer-description">隐私优先的智能习惯管理应用</p>
+                </div>
+                <div class="footer-section">
+                    <h4>应用</h4>
+                    <ul class="footer-links">
+                        <li><a href="#features">功能特色</a></li>
+                        <li><a href="#pricing">订阅方案</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>支持</h4>
+                    <ul class="footer-links">
+                        <li><a href="support.html">技术支持</a></li>
+                        <li><a href="support.html#faq">常见问题</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>法律条款</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy.html">隐私政策</a></li>
+                        <li><a href="terms.html">服务条款</a></li>
+                        <li><a href="subscription.html">订阅协议</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 习行 ActHab. 保留所有权利。</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

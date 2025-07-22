@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ActHab - Privacy-First Smart Habit Management App</title>
+    <meta name="description" content="ActHab is a privacy-focused habit management app with local AI analysis, 100% offline operation, helping you build and maintain good habits.">
+    <meta name="keywords" content="habit management,habit tracking,privacy app,local AI,offline app,iOS app,habit building,self improvement">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="logo">
+                <img src="assets/images/logo.png" alt="ActHab Logo" onerror="this.style.display='none'">
+                <span>ActHab</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="privacy-en.html">Privacy Policy</a></li>
+                <li><a href="terms-en.html">Terms of Service</a></li>
+                <li><a href="subscription-en.html">Subscription Agreement</a></li>
+                <li><a href="support-en.html">Support</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="language-switch" onclick="switchLanguage()">中文</button>
+                <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-background"></div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">ActHab</h1>
+                    <p class="hero-subtitle">Privacy-First Smart Habit Management</p>
+                    <p class="hero-description">
+                        Powered by 100% local AI technology, get intelligent analysis and suggestions without internet connection. 
+                        Your privacy data never leaves your device while enjoying powerful habit tracking and personalized insights.
+                    </p>
+                    <div class="hero-actions">
+                        <a href="#" class="btn btn-primary" target="_blank">
+                            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Download on App Store">
+                        </a>
+                        <a href="#features" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <div class="app-preview">
+                                <div class="preview-header">
+                                    <div class="preview-time">9:41</div>
+                                    <div class="preview-battery">100%</div>
+                                </div>
+                                <div class="preview-content">
+                                    <h3>Today's Habits</h3>
+                                    <div class="habit-item completed">
+                                        <span class="habit-icon">💧</span>
+                                        <span class="habit-name">Drink Water</span>
+                                        <span class="habit-status">✓</span>
+                                    </div>
+                                    <div class="habit-item">
+                                        <span class="habit-icon">📚</span>
+                                        <span class="habit-name">Reading</span>
+                                        <span class="habit-status">○</span>
+                                    </div>
+                                    <div class="habit-item">
+                                        <span class="habit-icon">🏃</span>
+                                        <span class="habit-name">Exercise</span>
+                                        <span class="habit-status">○</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Core Features</h2>
+                    <p class="section-subtitle">Why choose ActHab? We focus on privacy protection and intelligent experience</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🔒</div>
+                        <h3>100% Privacy Protection</h3>
+                        <p>All data is stored locally on your device with AES-256 military-grade encryption. We cannot see any of your personal information, truly achieving zero data collection.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🧠</div>
+                        <h3>Local AI Analysis</h3>
+                        <p>Advanced on-device machine learning technology provides personalized habit analysis and improvement suggestions without internet connection, protecting privacy while enjoying intelligent experience.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">✈️</div>
+                        <h3>Fully Offline Operation</h3>
+                        <p>Works perfectly in airplane mode without worrying about network connection. All features run locally, ensuring you can manage your habits in any environment.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📊</div>
+                        <h3>Smart Data Analysis</h3>
+                        <p>Provides detailed habit completion rate analysis, trend prediction and pattern recognition to help you understand your habit patterns and develop more effective improvement strategies.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🏆</div>
+                        <h3>Achievement System</h3>
+                        <p>Rich achievement badges and level system make habit building more fun. Maintain long-term motivation and engagement through gamification elements.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">📱</div>
+                        <h3>Widget Support</h3>
+                        <p>iOS home screen widget support for viewing today's habit progress at a glance. Supports multiple sizes and styles, perfectly integrated with the system.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="pricing">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Choose Your Plan</h2>
+                    <p class="section-subtitle">Flexible subscription options to meet different user needs</p>
+                </div>
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Free Version</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">0</span>
+                                <span class="period">Forever Free</span>
+                            </div>
+                        </div>
+                        <ul class="features-list">
+                            <li class="included">Up to 6 habits</li>
+                            <li class="included">Basic habit tracking</li>
+                            <li class="included">Unlimited data history</li>
+                            <li class="included">Basic statistics charts</li>
+                            <li class="included">Widget support</li>
+                            <li class="excluded">AI smart analysis</li>
+                            <li class="excluded">Data export</li>
+                            <li class="excluded">Cloud sync</li>
+                            <li class="excluded">Advanced charts</li>
+                        </ul>
+                        <a href="#" class="btn btn-outline">Download Now</a>
+                    </div>
+                    <div class="pricing-card featured">
+                        <div class="popular-badge">Recommended</div>
+                        <div class="pricing-header">
+                            <h3>Premium Version</h3>
+                            <div class="price">
+                                <span class="currency">$</span>
+                                <span class="amount">19.9</span>
+                                <span class="period">per year</span>
+                            </div>
+                            <div class="price-note">Save 33% • China ¥128/year</div>
+                        </div>
+                        <ul class="features-list">
+                            <li class="included">Unlimited habits</li>
+                            <li class="included">Complete habit tracking</li>
+                            <li class="included">Unlimited data history</li>
+                            <li class="included">AI smart analysis & suggestions</li>
+                            <li class="included">Advanced statistics charts</li>
+                            <li class="included">Data export function</li>
+                            <li class="included">iCloud sync</li>
+                            <li class="included">Custom themes</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Start Subscription</a>
+                        <p class="cancel-note">Cancel anytime</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/images/logo.png" alt="ActHab Logo" onerror="this.style.display='none'">
+                        <span>ActHab</span>
+                    </div>
+                    <p class="footer-description">Privacy-First Smart Habit Management App</p>
+                </div>
+                <div class="footer-section">
+                    <h4>App</h4>
+                    <ul class="footer-links">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul class="footer-links">
+                        <li><a href="support-en.html">Technical Support</a></li>
+                        <li><a href="support-en.html#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy-en.html">Privacy Policy</a></li>
+                        <li><a href="terms-en.html">Terms of Service</a></li>
+                        <li><a href="subscription-en.html">Subscription Agreement</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ActHab. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
