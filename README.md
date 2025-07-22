@@ -149,16 +149,8 @@ indexhtml/
 - 符合 GDPR 和 CCPA 要求
 - 透明的隐私政策
 
-## 📞 联系信息
-
-- **技术支持**: support@hqcancore.com
-- **一般咨询**: contact@hqcancore.com
-- **订阅问题**: subscription@hqcancore.com
 
 ## 📄 许可证
 
-版权所有 © 2025 HQCanCore Studio. 保留所有权利。
+版权所有 © 2025 ActHab. 保留所有权利。
 
----
-
-**注意**: 这是一个静态网站，所有页面都是纯 HTML/CSS/JavaScript，无需后端服务器支持。
